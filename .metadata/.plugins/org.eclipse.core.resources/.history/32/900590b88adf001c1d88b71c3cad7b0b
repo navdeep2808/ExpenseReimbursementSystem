@@ -1,0 +1,51 @@
+package service;
+
+import dao.EmployeeDao;
+import dao.EmployeeDaoImpl;
+import model.EmployeePojo;
+
+public class EmployeeServiceImpl implements EmployeeService{
+	
+	//Creating an EmployeeDaoImpl to call dao layer from the service layer
+	EmployeeDao employeeDao;
+	
+	public EmployeeServiceImpl() {
+		employeeDao = new EmployeeDaoImpl();
+	}
+
+	@Override
+	public EmployeePojo empLogin(EmployeePojo employeePojo) {
+		return null;
+	}
+
+	@Override
+	public EmployeePojo manLogin(EmployeePojo employeePojo) {
+		return null;
+	}
+
+	@Override
+	public EmployeePojo empLogout(EmployeePojo employeePojo) {
+		return null;
+	}
+
+	@Override
+	public EmployeePojo manLogout(EmployeePojo employeePojo) {
+		return null;
+	}
+
+	@Override
+	public EmployeePojo empViewInfo(EmployeePojo employeePojo) {
+		return null;
+	}
+
+	@Override
+	public EmployeePojo empUpdateInfo(EmployeePojo employeePojo) {
+		return null;
+	}
+
+	@Override
+	public EmployeePojo manViewAll(EmployeePojo employeePojo) {
+		return null;
+	}
+
+}

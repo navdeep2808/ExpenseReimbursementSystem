@@ -1,0 +1,13 @@
+package service;
+
+public interface EmployeesService {
+	
+	//Method for employee login
+	//Method for manager login
+	//Method for employee logout
+	//Method for manager logout
+	//Method for employee to view their information
+	//Method for employee to update their information
+	//Method for manager to view all employees
+
+}

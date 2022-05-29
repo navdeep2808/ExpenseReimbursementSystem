@@ -1,0 +1,58 @@
+package service;
+
+import dao.EmployeeDao;
+import dao.EmployeeDaoImpl;
+import model.EmployeePojo;
+
+public class EmployeeServiceImpl implements EmployeeService{
+	
+	//Creating an EmployeeDaoImpl to call Dao layer from the service layer
+	EmployeeDao employeeDao;
+	
+	public EmployeeServiceImpl() {
+		employeeDao = new EmployeeDaoImpl();
+	}
+
+	@Override
+	public EmployeePojo empLogin(EmployeePojo employeePojo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public EmployeePojo manLogin(EmployeePojo employeePojo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public EmployeePojo empLogout(EmployeePojo employeePojo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public EmployeePojo manLogout(EmployeePojo employeePojo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public EmployeePojo empViewInfo(EmployeePojo employeePojo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public EmployeePojo empUpdateInfo(EmployeePojo employeePojo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public EmployeePojo manViewAll(EmployeePojo employeePojo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
